@@ -162,7 +162,7 @@ public class TTTPanel extends JPanel {
                 int d = r.nextInt(3);
                 if (" ".equals(board[c][d])) {
                     board[c][d] = comp;
-                    System.out.println("Random Placement");
+                    //System.out.println("Random Placement");
                     flag = true;
                 } else {
                     flag = false;
