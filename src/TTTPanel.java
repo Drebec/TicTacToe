@@ -33,7 +33,7 @@ public class TTTPanel extends JPanel {
             comp = curPlayer;
             player = "O";
         } else {
-
+            System.exit(0);
         }
 
         //back-end:  initialize the board
